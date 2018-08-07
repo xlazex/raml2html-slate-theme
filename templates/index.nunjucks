@@ -1,5 +1,5 @@
 {% set comma = joiner() %}
-<h1 id="{{ getSafeId(title) }}">{{ title }} Documentation</h1>
+<h1 id="{{ getSafeId(title) }}">{{ title }}</h1>
 <p>
 {% if version %}<strong>version</strong> {{ version }}<br/>{% endif %}
 {% if baseUri %}<strong>baseUri</strong> {{ baseUri }}<br/>{% endif %}
